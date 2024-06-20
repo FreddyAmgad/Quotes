@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/Blue_light"
+
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/Start"
+        android:layout_marginBottom="71dp"
+
+        android:src="@drawable/welcome" />
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/RecandTex"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="71dp"
+        android:text="اعطني حكمة"
+        android:textSize="20dp"
+        android:backgroundTint="@color/Orange"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/RecandTex"
+        >
+        <View
+            android:id="@+id/rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/Black_light"
+            />
+        <TextView
+            android:id="@+id/rectangle_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="تخرج الحكم من فم السفهاء"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </FrameLayout>
+</RelativeLayout>

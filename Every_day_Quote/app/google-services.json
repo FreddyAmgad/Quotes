@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "910599332536",
+    "project_id": "every-day-qoute",
+    "storage_bucket": "every-day-qoute.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:910599332536:android:d1a60ff83c9594458e0a4d",
+        "android_client_info": {
+          "package_name": "com.example.welcomepage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJPTuG9ESnPZYz9mWILa8SdRjnXrIG_Ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
