@@ -30,6 +30,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -39,7 +42,11 @@ dependencies {
     implementation(libs.activity)
     implementation(libs.constraintlayout)
     implementation(libs.firebase.firestore)
+    implementation(libs.navigation.fragment)
+    implementation(libs.navigation.ui)
     //implementation("com.facebook.android:facebook-android-sdk:[5,6)")
+    //implementation ("com.google.android.material:material:1.4.0")
+    //implementation ("androidx.drawerlayout:drawerlayout:1.1.1")
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

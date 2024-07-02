@@ -3,4 +3,11 @@
     <string name="TAG">HERE</string>
     <string name="facebook_app_id">468767632398881</string>
     <string name="facebook_client_token">de25ba1356b8e211fa4c21aa4f4bd7e4</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="open">Open</string>
+    <string name="close">close</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
 </resources>
