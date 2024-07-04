@@ -1,4 +1,6 @@
 # Quotes
+##Descrption
+My application is designed to uplift and inspire users by presenting a new inspiring quote or message each day. The home screen greets users with a randomly selected quote of the day, which refreshes automatically daily or upon app launch. Users can effortlessly share their favorite quotes with friends and family via messaging or social media, fostering a positive and motivational community. Additionally, the app offers a feature for users to save and revisit their favorite quotes, creating a personalized collection of inspiration. With a focus on an attractive and user-friendly interface, our app ensures a delightful and seamless experience, making daily inspiration easily accessible and enjoyable.
 ## My Logo 
 ![logo](https://github.com/FreddyAmgad/Quotes/assets/78415690/2ac3869d-8e2a-4832-8f0d-eb05b9430cff)
 ## Developer
